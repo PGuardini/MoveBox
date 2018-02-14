@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SideBar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <header id="header">
+        <section class="headerSection">
+                <a>
+                    Home
+                </a>
+        </section>
+    </header>
+
+    <!-- SideBar -->
+
+    <div id="sidebar">
+        <a href="#">
+            <section class="sidebarSection">
+                Home
+            </section>
+        </a>
+        <a href="#">
+            <section class="sidebarSection">
+                Partners
+            </section>
+        </a>
+    </div>
+    <div class="container" onmousemove="cord(event)">
+        <div id="limit" onmouseout="clean()">
+            <div id="bola"></div>
+        </div>
+    </div>
+    <p id="cord"></p>
+
+    <script src="js/test.js"></script>
+</body>
+</html>
